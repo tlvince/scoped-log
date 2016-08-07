@@ -1,0 +1,38 @@
+{
+  "name": "scoped-log",
+  "description": "npmlog with filename prefixes",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tlvince/scoped-log.git"
+  },
+  "keywords": [
+    "npmlog",
+    "log",
+    "logger",
+    "scoped"
+  ],
+  "author": "Tom Vincent <git@tlvince.com> (https://tlvince.com)",
+  "engines": {
+    "node": ">=5"
+  },
+  "bugs": {
+    "url": "https://github.com/tlvince/scoped-log/issues"
+  },
+  "homepage": "https://github.com/tlvince/scoped-log#readme",
+  "dependencies": {
+    "npmlog": "4.0.0"
+  },
+  "devDependencies": {
+    "standard": "7.1.2",
+    "semantic-release": "^4.3.5"
+  },
+  "files": [
+    "index.js"
+  ],
+  "license": "MIT"
+}
